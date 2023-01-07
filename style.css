@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
 }
 /* general css */
 
@@ -50,6 +51,12 @@ a{
     background-color: #fff;
     display: inline-block;
     border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text_center{
+    text-align: center;
 }
 
 .flex{
@@ -158,5 +165,211 @@ justify-content: space-between;
     color:#16D887;
 }
 
+/* ***************
+    Plan section
+*/
+
+.plans{
+    padding: 130px 0;
+    padding-top: 0;
+}
+
+.plans .sub_title{
+    margin-bottom: 50px;
+}
+
+.plan_card_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 20px;
+}
+.plan_card:hover {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
 
 
+.plan_card img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+.plan_card h3{
+    color:#151414;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 31px;
+    margin-bottom: 16px;
+}
+.plan_card p{
+    font-size: 25px;
+    color: #737373;
+    font-weight: 500;
+}
+
+/* ***********
+        call_now
+*/
+
+.call_now{
+    margin-bottom: 130px;
+    height: 300px;
+    background: url('./images/gradient1.png'),url('./images/watch.png');
+    background-position: left, right;
+    background-size: cover,cover;
+    background-repeat: no-repeat;
+}
+
+.call_now_content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-start;
+}
+
+.call_now_content h2{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+/* ****** places i want to visit */
+
+.places{
+    background: rgb(230, 12, 49);
+    background: linear-gradient(266deg, rgba(230, 12, 49, 0.4150035014005602) 0%, rgba(175, 175, 175, 0.6278886554621849) 22%, rgba(0, 212, 255, 1) 100%);
+    margin-bottom: 130px;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.places h2{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(230, 230, 230);
+}
+
+.my_blog{
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    height: 300px;  
+   
+}
+
+.my_blog .blog_card{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.my_blog .blog_card img{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+.my_blog .blog_card h3 {
+    color:rgb(230, 229, 229);
+    background-color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 22px;
+    border-radius: 5px;
+    background: rgb(230, 12, 49);
+        background: linear-gradient(180deg, rgba(230, 12, 49, 0.4150035014005602) 0%, rgba(4, 13, 133, 0.628) 22%, rgba(168, 10, 116, 0.582) 100%);
+}
+
+/* *********
+    Site footer
+*/
+
+.site_footer{
+    background-color: #151414;
+    color:#fff;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer_content{
+    display: flex;
+
+}
+
+.footer_content .future{
+    width: 50%;
+    padding-right:150px ;
+}
+
+.footer_content .future h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.footer_content .future p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom:24px ;
+}
+.footer_content .future ul.contact_info li{
+margin-bottom: 16px;
+font-size: 16px;
+
+}
+.footer_content .future .footer_icon{
+    margin-top: 30px;
+    display: flex;
+    }
+
+.footer_content .future ul.footer_icon li {
+   margin-right: 12px;
+}
+
+
+.footer_content .subscribe{
+    width: 50%;
+    padding-left: 150px;
+}
+
+.footer_content .subscribe h5{
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.footer_content .subscribe form{
+    display: block;
+}
+.footer_content .subscribe form input.email{
+    padding:20px ;
+    border: 1px solid #fff;
+    display: block;
+    margin-bottom: 20px;
+    background-color: transparent;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.footer_content .subscribe form input.submit{
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 40px;
+    background-color: #005FAC;
+    border-radius: 5px;
+}
