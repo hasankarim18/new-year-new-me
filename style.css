@@ -378,4 +378,6 @@ font-size: 16px;
     background-color: #005FAC;
     border-radius: 5px;
     cursor: pointer;
+    border: none;
+    outline: none;
 }
