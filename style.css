@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 /* general css */
+
+
+/* commone styles start */
 a{
     text-decoration: none;
 }
@@ -10,9 +16,64 @@ a{
 .btn {
     display: inline-block;
 }
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main_title{
+    color:#151414;
+    font-size: 65px;
+    line-height: 76px;
+
+}
+
+.sub_title {
+    color:#151414;
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 700;
+}
+
+.paragraph {
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn-blue {
+    padding: 20px 26px;
+    color:#005FAC;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+/* common styles ends */
+
 /* Header section css */
 .site_header{
-    background-image: url('./images/banner/banner1.png');    
+    background-image: url('./images/banner/banner3.png');    
     max-width: 1600px;
     width: 100%;
     background-position: center;
@@ -37,6 +98,7 @@ a{
     font-size: 65px;
     line-height: 76px;
     margin-bottom: 24px;
+    color:#fff;
 
 }
 
@@ -44,11 +106,57 @@ a{
 .header_content p{
     margin-bottom: 32px;
     text-align: right;
+    color:#fff;
 }
 
-.btn-orange{
-    padding:20px 26px;
-    color: #fff;
-    background-color: #F15B22;
-    display: inline-block;    
+/*******************
+    Future plan section
+*/
+.future_plan{
+padding-bottom: 130px;
+padding-top: 130px;
+display: flex;
+justify-content: space-between;
 }
+
+.sad_img_container{
+    margin-right: 40px;
+}
+.future_plan .img{
+   max-width: 100%;    
+   width: 100%;
+}
+
+.sad_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.sad_text h2{
+    margin-bottom: 24px;
+    
+}
+
+.sad_text p {
+    margin-bottom: 16px;
+}
+
+
+/* check icon */
+
+
+
+.check_lists li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.check_icon{
+    color:#16D887;
+}
+
+
+
