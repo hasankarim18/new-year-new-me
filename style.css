@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* general css */
+a{
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+}
+/* Header section css */
+.site_header{
+    background-image: url('./images/banner/banner1.png');    
+    max-width: 1600px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
+
+.header_content{
+    padding-right: 180px;
+    padding-top: 220px;
+    padding-bottom: 166px;
+    width: 40%;
+    text-align: right;
+
+}
+
+.header_content h1{
+    text-align: right;
+    font-size: 65px;
+    line-height: 76px;
+    margin-bottom: 24px;
+
+}
+
+
+.header_content p{
+    margin-bottom: 32px;
+    text-align: right;
+}
+
+.btn-orange{
+    padding:20px 26px;
+    color: #fff;
+    background-color: #F15B22;
+    display: inline-block;    
+}
