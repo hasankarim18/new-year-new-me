@@ -302,6 +302,7 @@ background: rgb(131, 58, 180);
 }
 
 .my_blog .blog_card img{
+    border-radius: 5px;
     width: 100%;
     max-width: 100%;
     margin-bottom: 24px;
